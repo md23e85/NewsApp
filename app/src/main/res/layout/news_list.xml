@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Заголовок"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Категория"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="Статья"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="Страна"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country" />
+</LinearLayout>
